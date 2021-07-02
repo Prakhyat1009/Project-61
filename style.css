@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    padding-top: 1000px;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+
+#welcome {
+    background-image: url(skates1.jpg);
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+}
+
+h2 {
+    font-size: 40px;
+    color: blue;
+}
+
+h3 {
+    font-size: 25px;
+    color: blue;
+    max-width: 600px;
+    margin: auto;
+}
+
+.mycontents {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    background-color: black;
+    height: 7px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+   top: 0;
+    right: 20px;
+    list-style: none;
+    cursor: pointer;
+    background-color:#ffe173;
+    width:100%;
+    margin-top: 0;
+}
+
+.links {
+    font-size: 30px;
+    display: inline;
+    color: blue;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links:hover {
+    background-color: yellow;
+}
+#hobby{
+background-color: #afff8a;
+padding: 20px;
+}
+#facts{
+padding: 40px;
+background-color: #f8ff7d;
+}
+h4{
+font-size: 30px;
+}
+#speed{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#jam{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#rollerderby{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#artistic{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#rythm{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#outdoor{
+height: 250px;
+width: 350px;
+margin-top:20px;
+border-style: solid;
+border-color: aqua;
+}
+#kinds{
+background-color: #a7f5fc;
+}
+#inspiration{
+background-color: #efdbff;
+}
+#joey{
+height:500;
+transition: transform .2s;
+cursor: pointer;
+}
+#joey:hover{
+transform: scale(0.9);
+}
+#inspiration a{
+font-size: 20px;    
+}
